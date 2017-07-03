@@ -63,7 +63,7 @@ Topology File Input Format:
 The first line of each file is the number of switches.
 Every subsequent line is of the form:
 
-<switchID1>: <switchID2>: ​ BW:​ Delay
+switchID1: switchID2: BW: Delay
 
 This indicates that there is a link connecting switchID1 and switchID2, which has a bandwidth ​ BW, and a
 delay ​ Delay.
